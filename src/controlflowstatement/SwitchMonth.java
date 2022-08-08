@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SwitchMonth {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Month Number:");
+        System.out.println("Enter Month:");
 
          String monNumber = sc.next();
         switch (monNumber) {
